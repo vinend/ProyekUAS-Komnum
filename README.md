@@ -46,30 +46,6 @@ $$E = \int_{0}^{T} P(v(t)) dt$$
 ```
 
 ## Cara Menjalankan
-
-Replikasi hasil analisis dengan skrip Python:
-
-### Prasyarat
-  - Python 3
-  - Library: `numpy`, `matplotlib`
-
-### Langkah-langkah
-1.  **Clone repositori:**
-    ```bash
-    git clone https://github.com/vinend/ProyekUAS-Komnum.git
-    cd ProyekUAS-Komnum
-    ```
-2.  **Instal library:**
-    ```bash
-    pip install numpy matplotlib
-    ```
-3.  **Jalankan skrip Python:**
-    ```bash
-    python combined_analysis.py
-    ```
-Skrip akan menghasilkan `synthetic_data.txt`, memproses kasus uji, dan menyimpan visualisasi.
-
-### Opsi Alternatif (C++)
 1.  Pastikan `synthetic_data.txt` ada.
 2.  Kompilasi C++:
     ```bash
